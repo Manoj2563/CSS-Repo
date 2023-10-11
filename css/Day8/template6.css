@@ -1,0 +1,136 @@
+body{
+    /* background-color: rgb(184, 224, 235); */
+    /* background-image: linear-gradient(to right,rgb(16, 132, 235),rgb(246, 88, 88),rgba(238, 238, 67, 0.808)); */
+}
+.first{
+    display: flex;    
+}
+.one{   
+    margin-left: 200px;
+}
+.two{
+    display: inline-block;
+    text-indent: 200px;
+}
+.three{
+    display: inline-block;
+    text-indent: 50px;
+}
+.second{
+    height: 40px;
+    text-indent: 200px;   
+    margin-top: 20px;
+}
+nav{
+    word-spacing: 50px;  
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    border: 2px none black;
+    padding: 10px;
+    border-radius: 30px;
+    
+}
+a:hover{ 
+    background-color: chocolate;
+    color: aliceblue;
+}
+.four{
+    background-image: url('https://images.alphacoders.com/437/437581.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+
+}
+.five{
+    margin-top: -400px;
+    color: white;
+    text-align: center;
+}
+h1{
+    font-size: 5    0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -10px;
+}
+h2{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sec{
+    float: right;
+    color: rgb(52, 24, 209);
+    margin-top: -20px;
+    margin-right: 300px;
+}
+button{
+    height: 40px;
+    width: 130px;
+    border: 2px none white;
+    background-color: rgb(241, 102, 3);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button:hover{
+    background-color: rgb(245, 180, 18);
+    color: black;
+}
+.six{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 42px;
+}
+.seven{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(252, 122, 8);
+    padding: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.eight{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(20, 181, 245);
+    padding: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nine{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(3, 244, 43);
+    padding: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sixth{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(48, 243, 247);
+    color: rgb(5, 4, 4);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.seventh{
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+}
+.eighth{
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+}
+.ninth{
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+}

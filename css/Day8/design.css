@@ -1,0 +1,75 @@
+.container{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 50px;
+}
+.one{
+    display: inline;
+    background-color: rgb(87, 198, 18);
+    height: 300px;
+    width: 250px;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    opacity: 0.6;   
+    box-shadow: 5px 10px 5px red;
+}
+.one:hover{
+    background-color: chocolate;
+    color: rgb(31, 249, 31);
+    opacity: 1;
+    box-shadow: 5px 10px 5px rgb(132, 231, 11);
+}
+.two{
+    display: inline;
+    background-color: coral;
+    height: 300px;
+    width: 250px;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    opacity: 0.6; 
+    box-shadow: 5px 10px 5px green;
+}
+.two:hover{
+    background-color: rgb(23, 193, 236);
+    color: rgb(208, 35, 208);
+    opacity: 1;
+    box-shadow: 5px 10px 5px rgb(231, 11, 206);
+}
+.three{
+    display: inline;
+    background-color: rgb(112, 111, 111);
+    height: 300px;
+    width: 250px;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    opacity: 0.6; 
+    box-shadow: 5px 10px 5px rgb(228, 3, 134);
+}
+.three:hover{
+    background-color: rgb(245, 10, 10);
+    color: rgb(244, 247, 244);
+    opacity: 1;
+    box-shadow: 5px 10px 5px rgb(23, 8, 236);
+
+}
+h3{
+    font-size: x-large;
+    text-align: center;
+}
+.four{
+    height: 10px;
+    background-image: linear-gradient(to left,red,yellow);
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+img{
+    box-shadow: 20px 30px 20px rgb(49, 7, 175);
+}
+.five:hover{
+    opacity: 1;
+}

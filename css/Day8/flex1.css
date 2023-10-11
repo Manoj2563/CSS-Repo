@@ -1,0 +1,32 @@
+.main{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+}
+.one{
+    background-color: rgb(23, 238, 23);
+    padding: 10px;
+    width: 100%;
+}
+.two{
+    background-color: rgb(189, 235, 189);
+    justify-content: flex-start;
+    width: 30%;
+}
+.three{
+    background-color: rgb(70, 123, 70);
+    justify-content: flex-end;
+    width: 70%;
+ }
+ .four{
+    background-color: rgb(23, 238, 23);
+    justify-content: flex-start;
+    width: 60%;
+ }
+ .five{
+    background-color: rgb(237, 7, 7);
+    
+    justify-content: flex-end;
+    width: 40%;
+ }

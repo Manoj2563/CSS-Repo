@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesudo Element</title>
+    <style>
+        div::first-letter {
+            font-size: xx-large;
+            color: coral;
+        }
+
+        div::first-line {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: chartreuse;
+        }
+
+        h1::before {
+            content: 'Hii..';
+            color: blue;
+            text-shadow: 3px 3px 4px red;
+        }
+
+        h2::after {
+            content: ' of IT sectors';
+            color: rgb(177, 31, 134);
+            text-shadow: 3px 5px 3px greenyellow;
+        }
+
+        ::marker {
+            color: red;
+            font-size: 25px;
+        }
+        ::selection{
+            color: rgb(236, 117, 19);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>IT Sectors</h1>
+
+    </div>
+    <div class="second">
+        <p>Our experts help you use data to drive innovation and impact through the use of artificial intelligence,
+            machine learning, and intelligent automation.</p>
+    </div>
+    <div class="third">
+        <p>We collaborate with clients to develop robust, agile IT strategies that leverage a modern technology
+            architecture to enable the future of the organization. Throughout your transformation journey, from IT
+            assessments, portfolio optimization and program management, to technology modernization and cloud migration,
+            Guidehouse supports you every step of the way to realize your business goals.</p>
+        <h2>Different Types</h2>
+    </div>
+    <ul>
+        <li>TCS</li>
+        <li>Infosys</li>
+        <li>Accenture</li>
+    </ul>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+.one{
+    display: flex;
+    /* background-color: rgb(147, 145, 142); */
+}
+.two{
+    display: inline;
+    width:48% ;
+    background-color: rgb(247, 246, 243);
+    border: 2px solid black;
+    padding: 10px;
+}
+.three{
+    display: inline;
+    width:48% ;
+    background-color: rgb(249, 247, 244);
+    border: 2px solid black;
+    padding: 10px;
+}
+/* .first{
+    float: right;
+} */
+.now{
+    margin-top: -10px;
+}
+h1{
+    font-size: 70px;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: -10px;
+    color: red;
+}
+h3{
+    font-size: xx-large;
+}
+.main{
+    background-color: rgb(131, 129, 126);
+    margin-top: -30px;
+}
+.four{
+    column-count: 3;
+    column-gap: 50px;
+    column-rule: 2px solid black;
+    column-fill: auto;
+    height: 300px;
+    text-indent: 50px;
+}
+
+.five{
+    display: inline;
+}
+.six{
+    display: inline-block;
+    width: 10%;
+}
+.eight{
+    display: inline-block;
+    width: 10%;
+}
+.seven{
+    display: inline-block;
+    font-size: 27px;
+}
+.nine{
+    column-count: 3;
+    column-gap: 50px;
+    column-rule: 2px solid black;
+    column-fill: auto;
+    height: 280px;
+    column-span: none;
+    text-indent: 50px;
+}
+.ten{
+    column-count: 3;
+    column-gap: 50px;
+    column-rule: 2px solid black;
+    column-fill: auto;
+    height: 200px;
+    column-span: none;
+    text-indent: 50px;
+}
+.eleven{
+    column-count: 3;
+    column-gap: 50px;
+    column-rule: 2px solid black;
+    column-fill: auto;
+    height: 410px;
+    column-span: none;
+    
+}
+strong{
+    font-size: large;
+}
+
+
+

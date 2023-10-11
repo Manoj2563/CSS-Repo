@@ -1,0 +1,161 @@
+.main{
+    background-image: url('https://www.freewalldownload.com/download/hd-beach-4k-background-wallpaperss-1080p/');
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 1510px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+i{
+    padding: 10px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 25px;  
+    margin-top: 30px;  
+}
+i:hover{
+   transform: scale(1.1);
+   transition: 0.5;
+   background-color: rgb(255, 187, 2) ;
+}
+.icon{
+    margin-left: 650px;
+}
+.flex{
+    height: 60px;
+    width: 1000px;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 200px;
+    display: flex;
+    border-radius: 30px;
+}
+.content{
+    font-size: xx-large;
+    display: inline;
+    color: red;
+    margin-top: -30px;
+    margin-left: 50px;
+}
+.option{
+    margin-left: 200px;
+    margin-top: 20px;
+    word-spacing: 15px;
+}
+.option a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border: 2px none rgb(251, 251, 251);
+    border-radius: 25px;
+}
+.option a:hover{
+    background-color: rgb(47, 121, 231);
+    color: white;
+    text-decoration: overline 3px ;
+    transition: 0.5s;
+}
+.container{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+h2{
+    font-size: 40px;
+    text-decoration: 5px underline ;
+}
+button{
+    height: 40px;
+    width: 200px;
+    background-color: red;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+button:hover{
+    background-color: aliceblue;
+    color: red;
+}
+.main2{
+    text-align: center;
+}
+.service{
+    margin-top: -30px;
+}
+#file1{
+    padding: 100px;
+    background-color: rgb(255, 0, 221);
+}
+#file2{
+    padding: 100px;
+    background-color: rgb(233, 87, 34);
+}
+#file3{
+    padding: 100px;
+    background-color: rgb(3, 116, 221);
+}
+#file4{
+    padding: 100px;
+    background-color: rgb(8, 245, 44);
+}
+h3{
+    text-decoration: underline;
+}
+.final{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    width: 1100px;
+    justify-content: center;
+    column-gap: 10px;
+    margin-left: 130px;
+    row-gap: 10px;
+}
+.image{
+    height: 230px;
+    width: 230px;
+    border-radius: 20px;
+}
+.image:hover{
+    transform: scale(1.1);
+}
+.box{
+    background-color: red;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+}
+.line{
+    width: 5px;
+    height: 50px;    
+    background-color: white;
+    position: absolute;
+    animation: infinite fan 0.1s;
+    display: flex;
+    justify-content: center;
+    align-content: center;   
+    margin-top: 6px;
+    margin-left: 28px;
+    
+}
+.rotate{
+    width: 50px;
+    height: 5px;    
+    background-color: white;
+    position: absolute;
+    animation: infinite fan 0.1s;
+    display: flex;
+    justify-content: center;
+    align-content: center;   
+    margin-top: 28px;
+    margin-left: 5px;
+}
+@keyframes fan{
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 180deg;
+    }
+}

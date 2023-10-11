@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        h2{
+            font-size: 50px;
+            animation: my-animation 0.2s infinite;
+            height: 200px;
+            width: 800px;
+            color: coral;
+            text-shadow: 5px 5px 5px navy;
+            text-align: center;
+            margin-top: 50px;
+        }
+        /* .anime{
+            height: 200px;
+            width: 200px;
+            background-color: brown;
+            animation-name: my-animation;
+            animation-duration: 2s;
+            animation-delay: 1s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation: ;
+        } */
+        
+        @keyframes my-animation{
+            /* from{
+               transform: translate(0px,500px) ;
+            }
+            to{
+                transform: translate(0px,0px) ;
+            } */
+            0%{
+                transform: rotate(180deg) ;
+                background-color: blueviolet;
+            }
+            25%{
+                transform:translate(150px,300px);
+                background-color: rgb(134, 16, 99);
+            }
+            50%{
+                transform:translate(300,450px) ;
+            }
+            75%{
+                transform:translate(450px,300px);
+            }
+            100%{
+                transform:translate(300px,150px) ;
+            }
+        } 
+    </style>
+</head>
+<body>
+    <div class="anime">
+        <h2>KGISL Micro College</h2>
+    </div>
+    
+</body>
+</html>

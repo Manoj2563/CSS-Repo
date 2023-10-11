@@ -1,0 +1,27 @@
+.whole{
+    background-color: red;
+    height: 60px;
+    width: 60px;
+}
+.main{
+    width: 60px;
+    height: 2px;    
+    background-color: white;
+    position: absolute;
+    animation: infinite fan 0.1ms;
+    display: flex;
+    justify-content: center;
+    align-content: center;   
+}
+@keyframes fan{
+    from{
+        rotate: 180deg;
+    }
+    to{
+        rotate: 0deg;
+    }
+}
+
+
+
+

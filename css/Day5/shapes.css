@@ -1,0 +1,31 @@
+/* .leaf{
+    height: 400px;
+    width: 400px;
+    background-color: green;
+    border-top-left-radius: 350px;
+    border-bottom-right-radius: 350px;
+}
+.circle{
+    height: 200px;
+    width: 200px;
+    background-color: gold;
+    border-radius: 250px;
+} */
+.heart{
+    height: 300px;
+    width: 400px;
+    background-color: red;
+    border-top-left-radius: 450px;
+    
+    
+}
+.heart1{
+    height: 300px;
+    width: 400px;
+    background-color: red;
+    border-top-right-radius: 450px;
+    margin-left: 400px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    
+}

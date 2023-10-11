@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesudo Element</title>
+    <style>
+        div::first-letter {
+            font-size: xx-large;
+            color: coral;
+        }
+
+        div::first-line {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: chartreuse;
+        }
+
+        h1::before {
+            content: 'Hii..';
+            color: blue;
+            text-shadow: 3px 3px 4px red;
+        }
+
+        h2::after {
+            content: ' of IT sectors';
+            color: rgb(177, 31, 134);
+            text-shadow: 3px 5px 3px greenyellow;
+        }
+
+        ::marker {
+            color: red;
+            font-size: 25px;
+        }
+        ::selection{
+            color: rgb(205, 29, 176);
+            background-color: rgb(34, 27, 241);
+        } */
+        div{
+            column-count: 3;
+            column-rule: 2px solid goldenrod;
+            column-gap: 50px;
+            column-width: 100px;
+        }
+        h1{
+            column-span: all;
+        }
+        .container{
+    
+            position: relative;
+        
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .first{
+            position: relative;
+            z-index: 1;
+            border: 2px solid black;
+            height: 100px;
+            margin: 30px
+            
+        }
+        .second{
+            position: absolute;
+            z-index: 3;
+            background: lightgray;
+            height: 60px;  
+            width: 70%;
+            left: 50px;
+            top: 50px;
+        }
+                .three {
+                position: absolute;
+                z-index: 2;
+                background: lightgreen;
+                width: 35%;
+                left: 270px;
+                top: -15px;
+                height: 100px;
+            }
+                img {
+                position: absolute;
+                z-index: 0;
+                left: 0px;
+                top: 0px;
+                
+                }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+    <div class="first"></div>
+    <div class="second"></div>
+    <div class ="three"></div>
+</div>
+<img src="https://tse4.mm.bing.net/th?id=OIP.xddyM5Z5llwe5nz0xAnhvAHaD_&pid=Api&P=0&h=220">
+
+</body>
+
+</html>

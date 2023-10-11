@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selector</title>
+    <style>
+        .first>a:hover {
+            color: rgb(20, 216, 13);
+        }
+
+        a:link {
+            color: rgb(227, 9, 9);
+        }
+
+        .second>a:visited {
+            text-decoration: yellow;
+            color: rgb(14, 213, 91);
+        }
+
+        li:first-child {
+            color: blueviolet;
+            font-size: xx-large;
+        }
+
+        li:nth-child(odd) {
+            color: chocolate;
+            font-size: larger;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        li:nth-child(even) {
+            color: crimson;
+            font-size: xx-large;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        p::before{
+            content: "Welcome to KGISL";
+            color: blueviolet;
+            font-size: xx-large;
+        }
+        p::first-letter{
+            text-shadow: 3px 4px 3px red;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        p::first-line{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>coffee</h3>
+    <p>Coffee is a beverage prepared from roasted coffee beans. Darkly colored, bitter, and slightly acidic, coffee has
+        a stimulating effect on humans, primarily due to its caffeine content. It has the highest sales in the world
+        market for hot drinks.</p>
+    <div class="first"><a
+            href="https://www.hawaiicoffeecompany.com/c/coffee/100-kona/?msclkid=efeb10e475161602409d7438b233faac&utm_source=bing&utm_medium=cpc&utm_campaign=DC%20HCC%20Mainland&utm_term=coffee%20usa&utm_content=Hawaii%20Coffee">Click
+            Here to Know</a>
+    </div>
+    <h3>IT companies</h3>
+    <ol>
+        <li>Wipro</li>
+        <li>TCS</li>
+        <li>Accenture</li>
+        <li>Bosch</li>
+        <li>Infosys</li>
+        <li>Webnox</li>
+        <li>Office Scan</li>
+        <li>Bronto Byte</li>
+        <li>ITC</li>
+        <li>Primus</li>
+        <li>Pinnacle tech</li>
+        <li>Click Box</li>
+    </ol>
+    <div class="second">
+        <a href="https://www.kgkite.ac.in/">Click to Learn</a>
+    </div>
+    <p>Choice of such an institution will depend on its proximity to industry, the relevance of its learning programmer
+        to real-time industry and the active connect a student will have with industry professionals. KGiSL Institute of
+        Technology is an industry-sponsored institution par excellence, embedded in the environs of global design
+        engineering and information technology entities – embracing an aura of institute – industry culture and
+        sensitivity. KiTE with its industry lineage will leverage the advantage of connecting to real world challenges.
+        The rapid pace of innovation in the area of engineering and a high degree of focused knowledge is important to
+        build a successful career. Realizing this need, well-experienced and qualified faculty members are firmly
+        encouraged to nurture the students.</p>
+
+</body>
+
+</html>
